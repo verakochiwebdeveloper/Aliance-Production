@@ -1,0 +1,25 @@
+.--btn-default {
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn-blue {
+    background: #5C8EE5;
+    color: #ffffffff;
+    font-family: "Noto Sans";
+    &:hover {
+        background: #3A71D1;
+        transition: ease-in 0.35;
+    } 
+    &:active {
+        background:#5C8EE5;
+    }
+}
+
+--noto-sans-p {
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160;
+}

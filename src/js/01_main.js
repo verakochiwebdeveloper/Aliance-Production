@@ -1,6 +1,4 @@
-
- 
- function scrolHeader() {
+function scrolHeader() {
     const scrollWrapper = document.querySelector (".header__wrapper")
 window.addEventListener('scroll', ()=> {
     
